@@ -1,6 +1,27 @@
+/*
+
+JavaScript Composer
+
+*/
+
 (() => {
+
+	/*
+
+	Required libraries
+
+	*/
+
 	const fs = require("fs");
-	var jscompose = function(path){
+
+	/*
+
+	Base Function
+
+	*/
+	
+	let jscompose = path => {
+
 		if(path === undefined || path === null){
 			return jscompose._error("The path is not specified");
 		}
@@ -35,6 +56,12 @@
 		return jsStr;
 	};
 
+	/*
+
+	Throw Error
+
+	*/
+
 	jscompose._error = (err) => {
 		if(process.env.test !== undefined && process.env.test !== null){
 			throw new Error(err);
@@ -43,4 +70,5 @@
 	};
 
 	module.exports = jscompose;
+	
 })();
