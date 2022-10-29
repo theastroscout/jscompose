@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "description": "Compose Your JavaScript Files Into One Bundle Including Required Files",
   "main": "jscompose.js",
+  "type": "module",
   "scripts": {
     "test": "node test/app"
   },

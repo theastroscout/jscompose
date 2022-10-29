@@ -9,7 +9,7 @@ npm install @hqdaemon/jscompose
 ```
 
 ## Usage
-Just add in the main JavaScript file other files with **require()** or import method.
+Just add in the main JavaScript file other files with **require()** or **import** method.
 
 In app.js (or other file)
 ```js
@@ -20,7 +20,7 @@ require("path_to_other_js_file/file.3");
 
 ...then compose it with **Node.js** and **jscompose**
 ```js
-const jscompose = require("@hqdaemon/jscompose");
+import jscompose from "@hqdaemon/jscompose";
 let result = jscompose("/path_to_file/app.js");
 
 // Return false or composed string
@@ -33,7 +33,7 @@ let result = jscompose("/path_to_file/app.js");
 
 ## MIT License
 
-Copyright (c) HQ • [hqmode.com](https://hqmode.com)
+Copyright (c) Alexander Yermolenko • [surfy.one](https://surfy.one)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
