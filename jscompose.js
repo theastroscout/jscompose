@@ -30,6 +30,12 @@ let jscompose = path => {
 		return jscompose._error("The path is not specified");
 	}
 
+	/*
+
+	Check File Existence
+
+	*/
+	
 	if(!fs.existsSync(path)){
 		return jscompose._error(`File ${path} Not Found`);
 	}
