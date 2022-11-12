@@ -20,6 +20,12 @@ Base Function
 
 let jscompose = path => {
 
+	/*
+
+	Check Path
+
+	*/
+	
 	if(path === undefined || path === null){
 		return jscompose._error("The path is not specified");
 	}
