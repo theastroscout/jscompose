@@ -1,6 +1,6 @@
 {
-  "name": "@hqdaemon/jscompose",
-  "version": "1.0.8",
+  "name": "@surfy/jscompose",
+  "version": "1.0.0",
   "description": "Compose Your JavaScript Files Into One Bundle Including Required Files",
   "main": "jscompose.js",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hqdaemon/jscompose.git"
+    "url": "git+https://github.com/theastroscout/jscompose.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -20,14 +20,14 @@
     "require"
   ],
   "author": {
-    "name": "HQ",
-    "url": "https://hqmode.com"
+    "name": "Alexander Yermolenko",
+    "url": "https://surfy.one"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hqdaemon/jscompose/issues"
+    "url": "https://github.com/theastroscout/jscompose/issues"
   },
-  "homepage": "https://github.com/hqdaemon/jscompose#readme",
+  "homepage": "https://github.com/theastroscout/jscompose#readme",
   "directories": {
     "test": "test"
   }
